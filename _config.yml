@@ -1,0 +1,14 @@
+# Site settings
+title: Kyle P. Johnson
+email: kyle@kyle-p-johnson.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://kyle-p-johnson.com" # the base hostname & protocol for your site
+twitter_username: kylepj0hns0n
+github_username:  kylepjohnson
+
+# Build settings
+highlighter: rouge
