@@ -1,0 +1,47 @@
+---
+layout: default
+title: Kyle P. Johnson
+---
+
+<div class="col-md-12">
+
+<div class="col-md-8">
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="col-md-12">
+<h3>Natural Language Processing</h3>
+My primary project is the <a href="https://github.com/cltk/cltk">Classical Language Toolkit</a> (CLTK), a framework for natural language processing (NLP) for the languages of Ancient, Classical, and Medieval Eurasia. I am responsible for the project's oversight, as well as editing the libraries for Ancient Greek and Latin. <a href="https://github.com/kylepjohnson/notebooks/tree/master/public_talks">See here for materials</a> from my public talks on the CLTK.
+
+<br/><br/>
+
+For the Pema Ts'al Orthographic System (for which I am the lead developer) I have customized <a href="https://github.com/kylepjohnson/pema_tsal_fonts">fonts</a> and <a href="https://github.com/kylepjohnson/pema_tsal_tibetan_keyboard">a keyboard</a> which introduce several new punctuation characters to Tibetan orthography, in order to aid beginners in reading the language.
+</div>
+
+<div class="col-md-12">
+<h3>Scholarship</h3>
+While in academia, I published a few articles and wrote a dissertation. Of my publications, several of the more interesting are one on <a href="http://books.google.com/books?id=fyUJoZ8oPVEC&lpg=PT51&ots=HfqEkxO9MD&dq=comics%20classics%20kyle%20johnson&pg=PT51#v=onepage&q=comics%20classics%20kyle%20johnson&f=false">what comics have to offer the study of literature</a> (from Oxford University Press) and <a href="http://ancientstudies.fas.nyu.edu/docs/CP/963/EtruscanNews05.pdf">a short piece on Etruscan medicine</a>, which to my utter surprise took on a life of its own as a foundation for contemporary pharmaceutical research. <a href="https://github.com/kylepjohnson/NYU-Dissertation-in-Classics/blob/master/20120825-dissertation.pdf?raw=true">My dissertation</a> is a network-theoretical study of Julius Caesar's organization and leadership of the Roman army.
+</div>
+
+</section>
+</div>
+
+<div class="col-md-4">
+<h2>Recent posts</h2>
+  <ul>
+    {% for post in site.posts limit: 5 %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/kylepj0hns0n"  data-widget-id="468956543098970112">Tweets by @kylepj0hns0n</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div> <!-- 4 -->
+
+
+<div class="col-md-12">
+<section id="about">
+<h2>About</h2>
+I born and raised in Kirkland, Washington. I now reside in San Francisco, where I work as a Principal Research Scientist, specializing in NLP, at Accenture. My formal education was in Classics (BA, Reed College; PhD, NYU).
+</section>
+</div>
