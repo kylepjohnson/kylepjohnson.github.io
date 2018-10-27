@@ -3,6 +3,7 @@ layout: post
 title:  "Hi, everybody!"
 date:   2014-06-15 20:59:00
 categories: blog
+published: false
 ---
 
 <img src="/assets/Dr_Nick_wave.png" alt="Dr. Nick" align="left" hspace="30">
