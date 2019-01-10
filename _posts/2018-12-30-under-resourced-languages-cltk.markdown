@@ -6,6 +6,8 @@ categories: blog
 author: Kyle P. Johnson
 ---
 
+*The following entry is [cross-posted from the CLTK blog](http://cltk.org/blog/2018/12/30/under-resourced-languages-cltk.html).*
+
 The CLTK has as a central goal to provide complete NLP coverage of all pre-modern languages. In practice, this ambitious goal needs to be tempered by availability of language resources, digital and human. With some frequency, especially around the time of Google Summer of Code application, we are approached by potential contributors who hope to pitch in by adding NLP tools for a given language. Over the past six years, those of us centrally involved in the project have learned a great deal about what characteristics distinguish a successful from unsuccessful project. I'll describe these characteristics in some detail below, but to summarize, a successful "add-a-language" project for the CLTK depends the presence already-available, free digitized data.
 
 [comment]: <> (define an under-resourced language)
