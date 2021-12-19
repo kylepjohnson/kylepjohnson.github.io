@@ -269,9 +269,10 @@ GEM
 
 PLATFORMS
   universal-darwin-20
+  x86_64-darwin-21
 
 DEPENDENCIES
   github-pages (~> 215)
 
 BUNDLED WITH
-   2.2.24
+   2.2.33
