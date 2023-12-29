@@ -2,9 +2,13 @@
 layout: post
 title:  "Presentation at Digital Classicist Berlin"
 date:   2021-12-14 21:00:00
+# description: this is what included TikZ code could look like
+# tags: formatting diagrams
 categories: blog
 author: Kyle P. Johnson
+tikzjax: false
 ---
+
 
 *Cross-posted from the [CLTK blog](http://cltk.org/blog/)*
 
