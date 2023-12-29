@@ -11,7 +11,19 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-
+<div 
+style="
+position:fixed;
+top:0;
+bottom:0;
+left:0;
+right:0;
+width:100vw;
+height:100vh;
+z-index:-1;
+background-color: rgba(255, 255, 255, 0.5);
+"
+></div>
     <!-- Header -->
     {%- include header.html %}
 
