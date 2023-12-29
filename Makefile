@@ -1,5 +1,5 @@
 build:
-	bundle exec jekyll buil
+	bundle exec jekyll build
 
 run:
 	bundle exec jekyll serve --lsi --livereload
