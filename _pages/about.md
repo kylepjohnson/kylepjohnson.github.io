@@ -23,4 +23,4 @@ social: true  # includes social icons at the bottom of the page
 
 I am a research scientist in the AI subdomain of NLP (natural language processing). In recent years, my professional work has centered around AI strategy and zero-to-one product development.
 
-Outside of industry, my research focuses on bringing state-of-the-art NLP tooling to scholars of the Ancient, Classical, and Medieval worlds. The [Classical Language Toolkit](https://github.com/cltk/cltk) (CLTK) is an NLP framework for pre-modern languages. I referee for conferences frequently, lecture occasionally ([slides in blog](/blog)), and [publish](/publications) rarely.
+Outside of industry, my research revolves around the [Classical Language Toolkit](https://github.com/cltk/cltk) (CLTK), which brings state-of-the-art NLP to scholars of the ancient world. I referee for conferences frequently, lecture occasionally ([slides in blog](/blog)), and [publish](/publications) rarely.
