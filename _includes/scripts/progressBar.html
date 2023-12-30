@@ -29,13 +29,13 @@
    */
   function progressBarSetup() {
     if ("max" in document.createElement("progress")) {
-      initializeProgressElement();
+      // initializeProgressElement();
       $(document).on("scroll", function() {
         progressBar.attr({ value: getCurrentScrollPosition() });
       });
       $(window).on("resize", initializeProgressElement);
     } else {
-      resizeProgressBar();
+      // resizeProgressBar();
       $(document).on("scroll", resizeProgressBar);
       $(window).on("resize", resizeProgressBar);
     }
