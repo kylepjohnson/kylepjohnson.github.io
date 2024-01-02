@@ -19,6 +19,8 @@ $green-color-bright:  #11D68B !default;
 $purple-color:        #B509AC !default;
 $porsche-green:       #3A5847 !default;
 $monkey-purple:       #7156F4 !default;
+$compliment-sky-blue: #FFA180 !default;
+$dark-compliment-sky-blue: darken($compliment-sky-blue, 25%);
 $light-purple-color:  lighten($monkey-purple, 25%);
 $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
