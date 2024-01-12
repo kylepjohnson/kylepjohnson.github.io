@@ -6,8 +6,8 @@ permalink: /
 # subtitle:
 
 profile:
-  align: right
-  # image: prof_pic.jpg
+  align: left
+  image: head.png
   # image: card.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
