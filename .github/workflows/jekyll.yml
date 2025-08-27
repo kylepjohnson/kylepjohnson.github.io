@@ -29,16 +29,16 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu- ~/.rbenv/bin/rbenv install 3.1.24.04
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
+      - uses: actions/checkout@v4
+      - name: Set up Ruby
+        uses: ruby/setup0
+          ~/.rbenv/bin/rbenv global 3.1.0
+          echo 'export PATH-ruby@v1
         with:
-          ruby-version: '3.1' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          ruby-version: 3.1
+          bundler-cache: true
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
